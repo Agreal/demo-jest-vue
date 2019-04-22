@@ -2,7 +2,7 @@
 
 ## TODO
 - [x] commitlint + .editorconfig
-- [] ?? jest
+- [x] jest
 - [ ] babel
 - [ ] eslint
 - [ ] vue
