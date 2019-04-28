@@ -7,11 +7,11 @@
 - [x] vue
 
 ## Testing
-- [ ] 同步
+- [x] 同步
 - [ ] Asynchronous Testing
 - [ ] stub / spy / mock
 - [x] component
-- [ ] snapshot
+- [x] snapshot
 
 ## 难点
 - [ ] 怎么隔离 css, image 等资源
