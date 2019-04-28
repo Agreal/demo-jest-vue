@@ -30,6 +30,12 @@ describe('Counter', () => {
       const wrapper = mount(Counter);
       wrapper.find('button').trigger('click');
       expect(wrapper.element).toMatchSnapshot();
-    })
+    });
+
+    test('should should increase count', () => {
+      const wrapper = mount(Counter);
+      wrapper.find('button').trigger('click');
+      expect(wrapper.vm.count).toBe(1);
+    });
   });
 });
