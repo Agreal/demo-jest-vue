@@ -1,6 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Counter renders correctly 1`] = `
+exports[`Counter Click event render correctly 1`] = `
+<div>
+  <span
+    class="count"
+  >
+    1
+  </span>
+   
+  <button>
+    Increment
+  </button>
+</div>
+`;
+
+exports[`Counter render correctly 1`] = `
 <div>
   <span
     class="count"

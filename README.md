@@ -1,5 +1,7 @@
 # demo-vue-webpack-jest
 
+参考文档 https://vue-test-utils.vuejs.org/zh/
+
 ## TODO
 - [x] commitlint + .editorconfig
 - [x] jest
