@@ -1,5 +1,5 @@
 {
-  "name": "@agreal/demo-vue-webpack-jest",
+  "name": "@agreal/demo-jest-vue",
   "version": "0.1.0",
   "description": "",
   "scripts": {
@@ -7,15 +7,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Agreal/demo-vue-webpack-jest.git"
+    "url": "git+https://github.com/Agreal/demo-jest-vue.git"
   },
   "keywords": [],
   "author": "Agreal <qxq111@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Agreal/demo-vue-webpack-jest/issues"
+    "url": "https://github.com/Agreal/demo-jest-vue/issues"
   },
-  "homepage": "https://github.com/Agreal/demo-vue-webpack-jest#readme",
+  "homepage": "https://github.com/Agreal/demo-jest-vue#readme",
   "dependencies": {
     "vue": "^2.6.10"
   },

@@ -1,4 +1,4 @@
-# demo-vue-webpack-jest
+# demo-jest-vue
 
 参考文档 https://vue-test-utils.vuejs.org/zh/
 
