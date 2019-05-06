@@ -1,21 +1,12 @@
 {
-  "name": "@agreal/demo-jest-vue",
+  "name": "@agreal/jest-examples",
   "version": "0.1.0",
   "description": "",
   "scripts": {
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Agreal/demo-jest-vue.git"
-  },
-  "keywords": [],
   "author": "Agreal <qxq111@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Agreal/demo-jest-vue/issues"
-  },
-  "homepage": "https://github.com/Agreal/demo-jest-vue#readme",
   "dependencies": {
     "vue": "^2.6.10"
   },
