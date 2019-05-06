@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render dev commits list when checked dev branch 1`] = `
+<div>
+  <h1>
+    Latest Vue.js Commits
+  </h1>
+   
+  <div
+    class="branches"
+  >
+    <input
+      id="master"
+      name="branch"
+      type="radio"
+      value="master"
+    />
+     
+    <label
+      for="master"
+    >
+      master
+    </label>
+  </div>
+  <div
+    class="branches"
+  >
+    <input
+      id="dev"
+      name="branch"
+      type="radio"
+      value="dev"
+    />
+     
+    <label
+      for="dev"
+    >
+      dev
+    </label>
+  </div>
+   
+  <p>
+    vuejs/vue@dev
+  </p>
+   
+  <ul>
+    <li>
+      <a
+        class="commit"
+        href="html_url_0"
+        target="_blank"
+      >
+        1111111
+      </a>
+      
+      - 
+      <span
+        class="message"
+      >
+        aaaaa
+      </span>
+      <br />
+      
+      by 
+      <span
+        class="author"
+      >
+        <a
+          href="author_html_url"
+          target="_blank"
+        >
+          aaa
+        </a>
+      </span>
+      
+      at 
+      <span
+        class="date"
+      >
+        2017-10-13 03:07:14 
+      </span>
+    </li>
+    <li>
+      <a
+        class="commit"
+        href="html_url_1"
+        target="_blank"
+      >
+        1111111
+      </a>
+      
+      - 
+      <span
+        class="message"
+      >
+        bbbbb
+      </span>
+      <br />
+      
+      by 
+      <span
+        class="author"
+      >
+        <a
+          href="author_html_url"
+          target="_blank"
+        >
+          bbb
+        </a>
+      </span>
+      
+      at 
+      <span
+        class="date"
+      >
+        2017-10-13 03:07:14 
+      </span>
+    </li>
+    <li>
+      <a
+        class="commit"
+        href="html_url_2"
+        target="_blank"
+      >
+        1111111
+      </a>
+      
+      - 
+      <span
+        class="message"
+      >
+        ccccc
+      </span>
+      <br />
+      
+      by 
+      <span
+        class="author"
+      >
+        <a
+          href="author_html_url"
+          target="_blank"
+        >
+          ccc
+        </a>
+      </span>
+      
+      at 
+      <span
+        class="date"
+      >
+        2017-10-13 03:07:14 
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`App should render master commits list when mount App 1`] = `
+<div>
+  <h1>
+    Latest Vue.js Commits
+  </h1>
+   
+  <div
+    class="branches"
+  >
+    <input
+      id="master"
+      name="branch"
+      type="radio"
+      value="master"
+    />
+     
+    <label
+      for="master"
+    >
+      master
+    </label>
+  </div>
+  <div
+    class="branches"
+  >
+    <input
+      id="dev"
+      name="branch"
+      type="radio"
+      value="dev"
+    />
+     
+    <label
+      for="dev"
+    >
+      dev
+    </label>
+  </div>
+   
+  <p>
+    vuejs/vue@master
+  </p>
+   
+  <ul>
+    <li>
+      <a
+        class="commit"
+        href="html_url_0"
+        target="_blank"
+      >
+        1234567
+      </a>
+      
+      - 
+      <span
+        class="message"
+      >
+        aaaaa
+      </span>
+      <br />
+      
+      by 
+      <span
+        class="author"
+      >
+        <a
+          href="author_html_url"
+          target="_blank"
+        >
+          aaa
+        </a>
+      </span>
+      
+      at 
+      <span
+        class="date"
+      >
+        2017-10-13 03:07:14 
+      </span>
+    </li>
+    <li>
+      <a
+        class="commit"
+        href="html_url_1"
+        target="_blank"
+      >
+        1234567
+      </a>
+      
+      - 
+      <span
+        class="message"
+      >
+        bbbbb
+      </span>
+      <br />
+      
+      by 
+      <span
+        class="author"
+      >
+        <a
+          href="author_html_url"
+          target="_blank"
+        >
+          bbb
+        </a>
+      </span>
+      
+      at 
+      <span
+        class="date"
+      >
+        2017-10-13 03:07:14 
+      </span>
+    </li>
+    <li>
+      <a
+        class="commit"
+        href="html_url_2"
+        target="_blank"
+      >
+        1234567
+      </a>
+      
+      - 
+      <span
+        class="message"
+      >
+        ccccc
+      </span>
+      <br />
+      
+      by 
+      <span
+        class="author"
+      >
+        <a
+          href="author_html_url"
+          target="_blank"
+        >
+          ccc
+        </a>
+      </span>
+      
+      at 
+      <span
+        class="date"
+      >
+        2017-10-13 03:07:14 
+      </span>
+    </li>
+  </ul>
+</div>
+`;
