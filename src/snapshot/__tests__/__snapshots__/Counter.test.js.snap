@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Counter Click event render correctly 1`] = `
+exports[`Counter should render correct markup after click button 1`] = `
 <div>
   <span
     class="count"
@@ -14,7 +14,7 @@ exports[`Counter Click event render correctly 1`] = `
 </div>
 `;
 
-exports[`Counter render correctly 1`] = `
+exports[`Counter should render correct markup when mount 1`] = `
 <div>
   <span
     class="count"
