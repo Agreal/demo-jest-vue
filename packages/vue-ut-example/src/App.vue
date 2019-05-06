@@ -22,6 +22,7 @@
   </div>
 </template>
 <script>
+import axios from 'axios'
 var apiURL = 'https://api.github.com/repos/vuejs/vue/commits?access_token=fc6707ef1317bd65e605173045efe20f7108b0c0&per_page=3&sha='
 
 export default {
@@ -53,14 +54,9 @@ export default {
 
   methods: {
     fetchData: function () {
-      var xhr = new XMLHttpRequest()
-      var self = this
-      xhr.open('GET', apiURL + self.currentBranch)
-      xhr.onload = function () {
-        self.commits = JSON.parse(xhr.responseText)
-        console.log(self.commits[0].html_url)
-      }
-      xhr.send()
+      axios.get(apiURL + this.currentBranch).then(response => {
+        this.commits = response.data
+      })
     }
   }
 }
