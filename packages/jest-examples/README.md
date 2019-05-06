@@ -9,10 +9,8 @@
 - [x] vue
 
 ## Testing
-- [x] 同步
-- [ ] Asynchronous Testing
-- [ ] stub / spy / mock
-- [x] component
+- [x] synchronous
+- [x] Asynchronous Testing
 - [x] snapshot
 
 ## 难点
