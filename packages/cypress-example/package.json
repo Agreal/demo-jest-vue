@@ -1,0 +1,11 @@
+{
+  "name": "@agreal/cypress-example",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.2.0"
+  }
+}
