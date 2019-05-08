@@ -1,39 +1,12 @@
 # vue-ut-example
 
-## Project setup
-```
-npm install
-```
+## TODO
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- [x] Coverage Report
+	* https://vue-test-utils.vuejs.org/guides/#coverage
+- [x] Debugging
+	* https://jestjs.io/docs/en/troubleshooting#tests-are-failing-and-you-don-t-know-why
+- [x] Unit Test
+	* src/App.vue
+- [x] E2E Test
+	* test/e2e/specs/test.js
