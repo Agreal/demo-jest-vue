@@ -23,7 +23,7 @@
 </template>
 <script>
 import axios from 'axios'
-var apiURL = 'https://api.github.com/repos/vuejs/vue/commits?access_token=e0c46e3543e2618353bc4d392e4f6016910622d0&per_page=3&sha='
+var apiURL = 'https://api.github.com/repos/vuejs/vue/commits?access_token=e9ce41b8fab9f361a2f3245dc9b2c9cb721394d4&per_page=3&sha='
 
 export default {
   data: function () {
